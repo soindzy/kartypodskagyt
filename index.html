@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Креативные решения</title>
+  <link rel="stylesheet" href="./fonts/fonts.css">
+  <link rel="icon" href="./images/favicon.ico" sizes="any">
+  <link rel="icon" href="./images/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="./images/favicon.png">
+  <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body class="main-page">
+  <header class="header-section">
+    <nav class="nav-bar">
+      <div class="logo-container">
+        <a href="./index.html">
+          <svg xmlns="http://www.w3.org/2000/svg" width="135" height="25">
+            <use href="./images/logo.svg#logo"></use>
+          </svg>
+        </a>
+      </div>
+      <ul class="theme-switcher">
+        <li>
+          <button class="theme-button light-theme-button">Светлая</button>
+        </li>
+        <li>
+          <button class="theme-button dark-theme-button active">Тёмная</button>
+        </li>
+      </ul>
+    </nav>
+    <h1 class="main-heading">Креативные решения</h1>
+  </header>
+
+  <main class="content-section">
+    <h2 class="section-heading">Инновационные подходы</h2>
+    <div class="text-block first-lettered">
+      <p class="paragraph">
+        Каждый человек сталкивается с творческими кризисами. Как выйти из такого состояния? Мы расскажем об одном из самых креативных подходов — колоде карт «Обходные стратегии».
+      </p>
+      <p class="paragraph">
+        Эта колода была создана Брайаном Ино и Питером Шмидтом в 1975 году. Она предназначена для преодоления творческих блоков в любой сфере.
+      </p>
+    </div>
+    <figure class="image-figure">
+      <picture>
+        <source srcset="./images/cards-1x.avif 1x, ./images/cards-2x.avif 2x" type="image/avif">
+        <source srcset="./images/cards-1x.webp 1x, ./images/cards-2x.webp 2x" type="image/webp">
+        <img class="image" src="./images/cards-1x.png"
+          srcset="./images/cards-1x.png 1x, ./images/cards-2x.png 2x" type="image/webp" loading="lazy"
+          alt="Колода карт на столе">
+      </picture>
+      <figcaption class="image-caption">
+        Колода «Обходные стратегии»
+      </figcaption>
+    </figure>
+    <div class="text-block">
+      <p class="paragraph">
+        Колода состоит из более ста карточек с абстрактными фразами. Эти фразы помогают найти нестандартные решения проблем.
+      </p>
+      <p class="paragraph">
+        Сегодня существует множество цифровых аналогов этой колоды, что делает её доступной для всех.
+      </p>
+    </div>
+
+    <h2 class="section-heading">Как работают «обходные стратегии»</h2>
+    <div class="text-block first-lettered">
+      <p class="paragraph">
+        Брайан Ино рассказывает, что эти карты появились из-за необходимости находить неочевидные решения в творческих проектах.
+      </p>
+      <blockquote class="blockquote">
+        «Эти карты помогают видеть препятствия как отправные точки для поиска интересных решений».
+      </blockquote>
+      <p class="paragraph">
+        Колода поощряет нас мыслить нестандартно и находить новые подходы к проблемам.
+      </p>
+    </div>
+
+    <article class="card">
+      <h3 class="card-title">Используйте старую идею</h3>
+      <p class="card-subtitle">Воспользуйтесь проверенной концепцией</p>
+    </article>
+
+    <h2 class="section-heading">Кто использовал «обходные стратегии»</h2>
+    <div class="text-block">
+      <ul class="list">
+        <li class="list-item">Дэвид Боуи;</li>
+        <li class="list-item">Talking Heads;</li>
+        <li class="list-item">Coldplay;</li>
+        <li class="list-item">MGMT.</li>
+      </ul>
+    </div>
+  </main>
+
+  <footer class="footer-section">
+    <address class="copyright">
+      <p>Создано с любовью</p>
+    </address>
+  </footer>
+
+  <script src="./scripts/theme-changer.js"></script>
+</body>
+
+</html>
