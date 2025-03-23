@@ -94,7 +94,7 @@ p, h1, h2, h3, blockquote, ul, ol, li, figure {
 
 .theme-button:focus-visible,
 .link:focus-visible {
-  outline: 1px solid var(--text-color, #2F2F2F);
+  outline: 1px solid var(--text-color, #312A4E);
 }
 
 .theme-button.active::after {
