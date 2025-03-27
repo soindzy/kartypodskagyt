@@ -36,9 +36,7 @@ figure {
 }
 
 .page {
-  background-color: var(--bg-color, #F3EFEC);
-  font-family: var(--main-font, 'Raleway', sans-serif);
-  color: var(--text-color, #312A4E);
+
 }
 
 .content-section {
